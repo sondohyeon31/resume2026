@@ -1,0 +1,59 @@
+/*----------reset----------*/
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+table,
+caption,
+th,
+td,
+form,
+label {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top right, #e0f2fe 0, transparent 350px),
+    /* 우측 상단 화사한 하늘색 포인트 */
+    linear-gradient(180deg, #f0f7ff 0%, #ffffff 100%); /* 전체적으로 맑고 깨끗한 연블루에서 화이트로 떨어지는 배경 */
+  color: #1e293b; /* 가독성 높은 다크 슬레이트 블랙 */
+  font-family:
+    "Pretendard", "Noto Sans KR", sans-serif; /* 최신 한국어 웹 서체 우선 순위 */
+  line-height: 1.5; /* 쾌적한 가독성을 위한 줄간격 */
+  -webkit-font-smoothing: antialiased; /* 폰트를 더 매끄럽게 표현 */
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
